@@ -21,7 +21,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="medium"
       sizing="large"
-      background="noise"
+      background="circleGradient"
       cardStyle="glass-depth"
       primaryButtonStyle="double-inset"
       secondaryButtonStyle="radial-glow"
@@ -58,8 +58,8 @@ export default function LandingPage() {
           rating={4.2}
           ratingText="4.2 out of 5 from 319 reviews"
           mediaAnimation="slide-up"
-          tagAnimation="entrance-slide"
-          buttonAnimation="entrance-slide"
+          tagAnimation="slide-up"
+          buttonAnimation="slide-up"
         />
       </div>
 
@@ -112,7 +112,7 @@ export default function LandingPage() {
           textboxLayout="default"
           useInvertedBackground={false}
           animationType="slide-up"
-          gridVariant="three-columns-all-equal-width"
+          gridVariant="uniform-all-items-equal"
           metrics={[
             { id: "customers", value: "319+", description: "Satisfied Customers" },
             { id: "rating", value: "4.2★", description: "Average Rating" },
