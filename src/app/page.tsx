@@ -54,7 +54,7 @@ export default function LandingPage() {
             { imageSrc: "http://img.b2bpic.net/free-photo/cleaning-car-front-glass_53876-30980.jpg", imageAlt: "automatic car wash machine lahore" },
             { imageSrc: "http://img.b2bpic.net/free-photo/handsomen-man-white-shirt-washing-his-car_1157-27224.jpg", imageAlt: "car wash facility exterior building" }
           ]}
-          background={{ variant: "noise" }}
+          background={{ variant: "plain" }}
           rating={4.2}
           ratingText="4.2 out of 5 from 319 reviews"
           mediaAnimation="slide-up"
